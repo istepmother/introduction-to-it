@@ -27,3 +27,4 @@ console.dir({ flights });
 const directions = distinct(flights);
 
 console.dir({ directions });
+
