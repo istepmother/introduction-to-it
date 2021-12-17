@@ -1,7 +1,7 @@
-def addFunction(a, b): return a + b
+addFunction = lambda a, b: a + b
 
 
-cache = dict()
+cache = {}
 
 
 def addProcedure(a, b):
