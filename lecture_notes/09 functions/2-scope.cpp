@@ -14,22 +14,22 @@ void print_cities(string s[], int len) {
 
 void print_len() {
     cout << "[ ";
-    for (int i = 0; i < len; i++) {
-        cout << cities[i].size() << " ";
+    for (int idx = 0; idx < len; idx++) {
+        cout << cities[idx].size() << " ";
     }
     cout << "]\n";
 }
 
 string to_upper(string s) {
-    for (int i = 0; i < s.size(); i++){
-        s[i] = toupper(s[i]);
+    for (int idx = 0; idx < s.size(); idx++) {
+        s[idx] = toupper(s[idx]);
     }
     return s;
 }
 
 string to_lower(string s) {
-    for (int i = 0; i < s.size(); i++){
-        s[i] = tolower(s[i]);
+    for (int idx = 0; idx < s.size(); idx++) {
+        s[idx] = tolower(s[idx]);
     }
     return s;
 }
